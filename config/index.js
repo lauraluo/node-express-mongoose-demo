@@ -21,6 +21,7 @@ const notifier = {
 };
 
 const defaults = {
+  //雙低線代表gobal變數，是ndoe的東西
   root: path.join(__dirname, '..'),
   notifier: notifier
 };
